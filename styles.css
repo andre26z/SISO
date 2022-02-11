@@ -217,7 +217,15 @@ input[type="radio"]:checked {
           align-items: start;
 }
 
-#exampleFormControlSelect1 {
+#benefits2 {
+  padding-bottom: 38px;
+}
+
+#finalbutton {
+  border-radius: 2rem;
+  background-color: #003c53;
+  min-width: 260px;
+  padding: 20px 15px;
   float: right;
 }
 /*# sourceMappingURL=styles.css.map */
