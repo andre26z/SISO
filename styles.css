@@ -150,11 +150,12 @@ img {
 
 h5 {
   color: #003c53;
+  padding: 10px;
 }
 
 h2 {
   color: #003c53;
-  padding-left: 9px;
+  padding-bottom: 26px;
 }
 
 .tel {
@@ -172,6 +173,7 @@ h2 {
           justify-content: start;
   text-align: start;
   max-width: 570px;
+  padding-top: 70px;
 }
 
 .form {
@@ -215,6 +217,7 @@ input[type="radio"]:checked {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
+  padding: 20px;
 }
 
 #benefits2 {
@@ -233,13 +236,14 @@ input[type="radio"]:checked {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 10px;
+  padding-bottom: 70px;
+  row-gap: 10px;
 }
 
 #lastpage {
   background-color: #003c53;
-  height: 150px;
-  padding-top: 20px;
+  height: 180px;
+  padding: 20px;
 }
 
 .col-sm-4 {
@@ -260,5 +264,28 @@ input[type="radio"]:checked {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.logo-footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: inline-block;
+}
+
+.rodapeletras {
+  color: white;
+}
+
+.form-group {
+  padding: none;
+}
+
+bdi {
+  padding: 10px;
+}
+
+#teles {
+  float: left;
 }
 /*# sourceMappingURL=styles.css.map */
