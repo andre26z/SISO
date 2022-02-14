@@ -15,6 +15,7 @@ img {
 .container-fluid {
     background-color: white;
     border: 1px solid rgba(204, 195, 195, 0.541);
+    
 }
 
 .container {
@@ -125,11 +126,12 @@ img {
 }
 h5 {
     color: $primary-color;
+    padding: 10px;
 }
-
 h2 {
     color: $primary-color;
-    padding-left: 9px;
+    padding-bottom: 26px;
+    
 }
 
 .tel {
@@ -143,6 +145,7 @@ h2 {
     justify-content: start;
     text-align: start;
     max-width: 570px;
+    padding-top: 70px;
     
 }
 
@@ -170,18 +173,65 @@ input[type="radio"]:checked {
     box-shadow: 1px 1px 1px black;
 }
 
-// .form-control2 {
-//     border: 1px solid #003c53;
-//     background-color: white;
-//     padding: 10px;
-//     height: 37px;
-   
-// }
+
 
 #pg4 {
     justify-content: start;
     max-width: 570px;
     text-align: start;
     align-items: start;
+    padding: 20px;
+}
+
+#benefits2 {
+    padding-bottom: 38px;
+}
+
+#finalbutton {
+    border-radius: 2rem;
+    background-color: #003c53;
+    min-width: 260px;
+    padding: 20px 15px;
+    float: right;
+}
+
+.row-cols-md-3 {
+    justify-content: center;
+    padding-bottom: 70px;
+    row-gap: 10px ;
+}
+
+#lastpage {
+    background-color: #003c53;
+    height: 180px;
+    padding: 20px;
+}
+
+.col-sm-4 {
+    justify-content: center;
+    align-items: center;
+}
+#logofim {
+    background-color: white;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer {
+    justify-content: center;
+    display: inline-block;
+}
+.rodapeletras {
+    color: white;
+    
+}
+
+.form-group {
+    padding: none;
+}
+
+bdi {
+    padding: 10px;
 }
 
