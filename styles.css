@@ -135,7 +135,7 @@ img {
   bottom: 0%;
   right: 0%;
   background-repeat: no-repeat;
-  background-image: url("../img/terno.png");
+  background-image: url("img/terno.png");
   background-size: cover;
 }
 
@@ -271,8 +271,12 @@ input[type="radio"]:checked {
   color: white;
 }
 
-.form-group {
-  padding: none;
+.form-group label {
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
 }
 
 #selo {
