@@ -119,6 +119,11 @@ img {
     background-repeat: no-repeat;
     background-image: url("../img/terno.png");
     background-size: cover;
+
+    // @media only screen and (max-width: 992px) { faz desaparecer a foto quando diminui a resolução
+    //    display: none;
+        
+    // }
 }
 
 .col {
@@ -203,7 +208,7 @@ input[type="radio"]:checked {
 
 #lastpage {
     background-color: #003c53;
-    height: 180px;
+    height: 200px;
     padding: 20px;
 }
 
@@ -231,7 +236,6 @@ input[type="radio"]:checked {
     padding: none;
 }
 
-bdi {
-    padding: 10px;
-}
 
+        
+ 

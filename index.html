@@ -44,7 +44,7 @@
 
 
             </form>
-            <span><button type="button" class="btn mx-2"> AUTENTICAR </button></span>
+            <span> <button type="button" class="btn mx-2"> AUTENTICAR </button></span>
     </div>
 
 
@@ -85,17 +85,17 @@
                 consectetur adipisicing elit. Magni, molestias!
             </div>
             <div class="icons col">
-                <img class="icon" src="img/calculadora.png" alt="">Lorem ipsum dolor sit amet consectetur
+                <img class="icon align-items-center" src="img/calculadora.png" alt="">Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Quos, ad.
             </div>
         </div>
     </section>
     <section class="" id="sec2">
-        <div class="container" media="screen and (max-width: 600px)">
+        <div class="container">
             <div class="row" id="container2">
                 <div class="col-md-8">
                     <h2>Saiba mais sobre os recursos do sistema</h2>
-                    <div class="row row-cols-md-2">
+                    <div class="row row-cols-md-2" id="saibamais">
                         <div class="col">
                             <h5>Controle das prestações de contas</h5>
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe architecto accusantium
@@ -145,7 +145,9 @@
                     </div>
                 </div>
             </div>
-            <div id="background2"> </div>
+            <div class="d-none d-lg-block"id="background2"> </div> <!--d-none e d-md-block quer dizer que
+            o display vai ser none, ou seja, vai desaparecer a imagem quando os px do elemento for maior que 720px,
+        que no caso é o tamanho do md -->
         </div>
     </section>
     <section>
@@ -182,8 +184,8 @@
 
         <div class="d-inline-flex " id="inlineforms">
 
-            <bdi id="teles">
-                <label for="telefone" class="row row-cols-6">Telefone
+            <bdi id="form-group mx-2 row row-cols-6">
+                <label for="telefone" class="">Telefone
                     <input type="number" class="form-control">
                 </label>
             </bdi>
@@ -237,7 +239,7 @@
                 </select>
             </div>
         </bdi>
-        <br>
+        
 
     </div>
     <div class="container">

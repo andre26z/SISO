@@ -144,6 +144,12 @@ img {
   background-size: cover;
 }
 
+@media only screen and (max-width: 992px) {
+  #background2 {
+    display: none;
+  }
+}
+
 .col {
   padding: 20px;
 }
@@ -242,7 +248,7 @@ input[type="radio"]:checked {
 
 #lastpage {
   background-color: #003c53;
-  height: 180px;
+  height: 200px;
   padding: 20px;
 }
 
@@ -279,9 +285,5 @@ input[type="radio"]:checked {
 
 .form-group {
   padding: none;
-}
-
-bdi {
-  padding: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
