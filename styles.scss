@@ -30,7 +30,7 @@ img {
 }
 
 .form-control {
-    border: 2px solid #003c53;
+    border: 2.3px solid #003c53;
     background-color: white;
     
     &:focus {
@@ -243,4 +243,7 @@ input[type="radio"]:checked {
     label {
         display: inline-block;
     }
+}
+a {
+    text-decoration: none;
 }
