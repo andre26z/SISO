@@ -2,6 +2,7 @@ $primary-color: #003c53;
 
 * {
     margin: 0%;
+    
 }
 
 :root {
@@ -20,6 +21,7 @@ img {
 
 .container {
     background-color: white;
+    justify-content: center;
 }
 .navbar {
     background-color: white;
@@ -42,7 +44,7 @@ img {
 #logo {
     transform: translateY(-11px);
     align-items: flex-start;
-    padding-right: 200px;
+    
 }
 
 .btn {
@@ -81,12 +83,16 @@ img {
 }
 
 .iconsmid {
-   
+    
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
 }
 
+.icon {
+    height: 70px;
+    width: 70px;
+}
 #benefits {
     max-width: 100%;
     width: 1050px;
@@ -132,7 +138,7 @@ img {
 }
 
 h5 {
-    color: $primary-color;
+    color: #0B85B4;
     
    
 }
@@ -150,10 +156,14 @@ h2 {
 }
 
 #pg3 {
-    justify-content: start;
-    text-align: start;
-    max-width: 570px;
+    
+    justify-content: center;
+    
     padding: 70px 0;
+    form {
+        max-width: 550px;
+        margin: auto;
+    }
     
 }
 
@@ -232,6 +242,7 @@ input[type="radio"]:checked {
 
 }
 
+
 .form-group {
     margin-bottom: 15px;
     label {
@@ -246,4 +257,11 @@ input[type="radio"]:checked {
 }
 a {
     text-decoration: none;
+}
+.row-cols-sm-1 {
+    padding: 15px;
+}
+.input-group {
+    justify-content: space-between;
+  
 }
