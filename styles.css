@@ -82,10 +82,13 @@ img {
 }
 
 #sec1 {
-  background-color: #003c53;
+  background-image: url("img/banner.png");
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #003c53; */
 }
 
 #paper {
