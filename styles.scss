@@ -73,9 +73,14 @@ img {
 }
 
 #sec1 {
-    background-color: #003c53;
-    object-fit: cover;
+    background-image: url("img/banner.png");
+    background-repeat: no-repeat;
     width: 100%;
+    position: relative;
+
+    
+    
+
 }
 
 #paper {
@@ -116,6 +121,9 @@ img {
     position: relative;
 }
 
+
+
+   
 #background2 {
     position: absolute;
     width: 38%;
@@ -128,8 +136,8 @@ img {
     background-image: url("img/terno.png");
     background-size: cover;
 
-  
 }
+
 
 
 h5 {
@@ -261,3 +269,13 @@ a {
   
 }
 
+@media only screen and (max-width: 575.98px)  {
+    #imgadv {
+        width: 314px;
+        height: 260px;
+        background-position: center center;
+        padding-top: 10px;
+    }
+    
+}
+   

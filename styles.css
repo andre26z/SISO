@@ -83,12 +83,9 @@ img {
 
 #sec1 {
   background-image: url("img/banner.png");
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
-  /* background-color: #003c53; */
+  width: 100%;
+  position: relative;
 }
 
 #paper {
@@ -288,5 +285,12 @@ a {
           justify-content: space-between;
 }
 
-
+@media only screen and (max-width: 575.98px) {
+  #imgadv {
+    width: 314px;
+    height: 260px;
+    background-position: center center;
+    padding-top: 10px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
