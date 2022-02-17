@@ -76,11 +76,11 @@ img {
     background-image: url("img/banner.png");
     background-repeat: no-repeat;
     width: 100%;
-    position: relative;
-
-    
-    
-
+    background-size: cover;
+    margin-bottom: 60px;
+       img {
+           margin-bottom: -70px;
+       }
 }
 
 #paper {
@@ -161,7 +161,6 @@ h2 {
 #pg3 {
     
     justify-content: center;
-    
     padding: 70px 0;
     form {
         max-width: 550px;
@@ -276,6 +275,12 @@ a {
         background-position: center center;
         padding-top: 10px;
     }
-    
+    #navegador {
+        display: none;
+        
+    }
 }
    
+.container-fluid {
+    border: none;
+}
