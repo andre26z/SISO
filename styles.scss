@@ -270,14 +270,28 @@ a {
 
 @media only screen and (max-width: 575.98px)  {
     #imgadv {
-        width: 314px;
-        height: 260px;
+        width: 362px;
+        height: 319px;
         background-position: center center;
-        padding-top: 10px;
+        padding-top: 24px;
+        
     }
     #navegador {
         display: none;
         
+    }
+    #sec1 {
+        padding-bottom: 5px;}
+        
+        h1 {
+            padding-top: 82px;
+    }
+    #benefits {
+        margin-top: -53px;
+
+    }
+    #finalbutton {
+        transform: translate(-48px, 10px);
     }
 }
    
