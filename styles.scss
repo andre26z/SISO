@@ -25,11 +25,21 @@ img {
 }
 .navbar {
     background-color: white;
-    padding-top: 35px;
+    padding-top: 18px;
         #menubutton {
             border-color: #0B85B4;
             background-color: #0B85B4;
         }
+        .navbar-toggler {
+            color: white;
+            border: none;
+        }
+        
+    }
+.offcanvas-header {
+    .btn-close {
+        background-color: white;
+    }
 }
 .navword {
     color: $primary-color;
@@ -302,6 +312,10 @@ a {
         padding-top: 20px
 
     }
+    #logosiso {
+        max-width: 120px ;
+        max-height: 120px;
+    }
     
 }
  @media only screen and (max-width: 1023px) {
@@ -329,9 +343,7 @@ a {
     border: none;
 }
 
-.navbar-toggler {
-    border: none;
-}
+
 
 @media only screen and (min-width: 1024px) {
     #benefits {
