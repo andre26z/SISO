@@ -12,6 +12,9 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+h2 {
+    color: #fff;
+}
 
 .container-fluid {
     background-color: white;
@@ -164,10 +167,11 @@ h5 {
     
    
 }
-h2 {
+h3 {
     color: $primary-color;
-    padding-bottom: 26px;
+    font-weight: bold;
     padding-top: 26px;
+    font-size: 25px;
 }
 
 .tel {
@@ -181,12 +185,16 @@ h2 {
     
     justify-content: center;
     padding: 70px 0;
-    form {
+}
+    
+   
+
+form {
         max-width: 550px;
         margin: auto;
-    }
+   }
     
-}
+
 
 
 
@@ -281,6 +289,7 @@ a {
 }
 .row-cols-sm-1 {
     padding: 15px;
+    
 }
 .input-group {
     justify-content: space-between;
@@ -304,9 +313,10 @@ a {
         padding: 10px;
     }
         
-        h1 {
-            padding-top: 82px;
-    }
+ h2 {
+    padding-top: 82px;
+    color: white;
+}
     #benefits {
         margin-top: 53px;
         padding-top: 20px
@@ -327,7 +337,7 @@ a {
      }
     #sec1 {
         padding-bottom: 5px;}
-     h1 {
+     h2 {
         padding-top: 82px;
     }  
     #benefits {

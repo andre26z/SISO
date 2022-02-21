@@ -11,6 +11,10 @@ img {
   max-height: 100%;
 }
 
+h2 {
+  color: #fff;
+}
+
 .container-fluid {
   background-color: white;
   border: 1px solid rgba(204, 195, 195, 0.541);
@@ -175,10 +179,11 @@ h5 {
   color: #0B85B4;
 }
 
-h2 {
+h3 {
   color: #003c53;
-  padding-bottom: 26px;
+  font-weight: bold;
   padding-top: 26px;
+  font-size: 25px;
 }
 
 .tel {
@@ -197,7 +202,7 @@ h2 {
   padding: 70px 0;
 }
 
-#pg3 form {
+form {
   max-width: 550px;
   margin: auto;
 }
@@ -323,8 +328,9 @@ a {
   #sec1 {
     padding: 10px;
   }
-  h1 {
+  h2 {
     padding-top: 82px;
+    color: white;
   }
   #benefits {
     margin-top: 53px;
@@ -346,7 +352,7 @@ a {
   #sec1 {
     padding-bottom: 5px;
   }
-  h1 {
+  h2 {
     padding-top: 82px;
   }
   #benefits {
