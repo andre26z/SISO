@@ -28,8 +28,18 @@ img {
   padding-top: 35px;
 }
 
+.navbar #menubutton {
+  border-color: #0B85B4;
+  background-color: #0B85B4;
+}
+
 .navword {
   color: #003c53;
+}
+
+#menuword {
+  color: white;
+  text-decoration: none;
 }
 
 .form-control {
