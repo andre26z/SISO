@@ -343,18 +343,20 @@ a {
     background-position: center center;
     padding-top: 20px;
   }
-}
-
-#sec1 {
-  padding-bottom: 5px;
-}
-
-h1 {
-  padding-top: 82px;
-}
-
-#benefits {
-  margin-top: -22px;
+  #sec1 {
+    padding-bottom: 5px;
+  }
+  h1 {
+    padding-top: 82px;
+  }
+  #benefits {
+    margin-top: -22px;
+  }
+  #finalbutton {
+    float: none;
+    margin: auto;
+    display: block;
+  }
 }
 
 .container-fluid {
