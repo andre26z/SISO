@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
 * {
   margin: 0%;
 }
@@ -13,6 +15,7 @@ img {
 
 h2 {
   color: #fff;
+  font-weight: bold;
 }
 
 .container-fluid {
@@ -29,12 +32,12 @@ h2 {
 
 .navbar {
   background-color: white;
-  padding-top: 18px;
+  padding-top: 31px;
 }
 
 .navbar #menubutton {
-  border-color: #0B85B4;
-  background-color: #0B85B4;
+  border-color: #0b85b4;
+  background-color: #0b85b4;
 }
 
 .navbar .navbar-toggler {
@@ -48,6 +51,13 @@ h2 {
 
 .navword {
   color: #003c53;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+}
+
+.inputtexts {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
 }
 
 #menuword {
@@ -58,6 +68,8 @@ h2 {
 .form-control {
   border: 2.3px solid #003c53;
   background-color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
 }
 
 .form-control:focus {
@@ -94,6 +106,7 @@ h2 {
 
 .textmid2 {
   height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
   -ms-flex-item-align: center;
       align-self: center;
   color: white;
@@ -107,13 +120,14 @@ h2 {
 #sec1 {
   background-image: url("img/banner.png");
   background-repeat: no-repeat;
-  width: 100%;
+  background-position: center center;
   background-size: cover;
   margin-bottom: 60px;
 }
 
 #sec1 img {
   margin-bottom: -70px;
+  height: 475px;
 }
 
 #paper {
@@ -143,6 +157,8 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 20px;
+  color: gray;
+  font-size: 16px;
 }
 
 #titulo2 {
@@ -161,6 +177,30 @@ h2 {
 #sec2 {
   background-color: #f2f2f2;
   position: relative;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+#sec2 h3 {
+  margin: 16px;
+}
+
+#sec2 #saibamais {
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: -25px;
+  max-width: 98%;
+}
+
+#sec2 #saibamais h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#sec2 #saibamais h5 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 #background2 {
@@ -176,7 +216,7 @@ h2 {
 }
 
 h5 {
-  color: #0B85B4;
+  color: #0b85b4;
 }
 
 h3 {
@@ -189,9 +229,6 @@ h3 {
 .tel {
   color: white;
   background-color: #003c53;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   border-color: #003c53;
 }
 
@@ -200,6 +237,13 @@ h3 {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 70px 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#pg3 h5 {
+  color: #003c53;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
 }
 
 form {
@@ -285,7 +329,20 @@ input[type="radio"]:checked {
 }
 
 #selo {
-  padding: 20px;
+  padding: 25px 12px;
+  position: relative;
+  background-color: #003c53;
+  border-color: #003c53;
+}
+
+#selo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-color: #003c53;
+  width: 100px;
+  left: 97%;
 }
 
 .form-group {
@@ -315,7 +372,7 @@ a {
 }
 
 @media only screen and (max-width: 599px) {
-  #imgadv {
+  #sec1 #imgadv {
     width: 362px;
     height: 319px;
     background-position: center center;
