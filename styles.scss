@@ -17,10 +17,24 @@ h2 {
     font-weight: bold;
 }
 
+
 .container-fluid {
     background-color: white;
     border: 1px solid rgba(204, 195, 195, 0.541);
 }
+#navbar_top {
+    transition: 0.4s;
+   
+}
+#novobar {
+    transform: translate(90px, -11px);
+    }
+    .navbar_brand {
+        transform: translate(10px, -8px);
+
+    }
+
+
 
 .container {
     background-color: white;
@@ -29,6 +43,7 @@ h2 {
 .navbar {
     background-color: white;
     padding-top: 31px;
+}
     #menubutton {
         border-color: #0b85b4;
         background-color: #0b85b4;
@@ -37,7 +52,7 @@ h2 {
         color: white;
         border: none;
     }
-}
+
 .offcanvas-header {
     .btn-close {
         background-color: white;
@@ -58,7 +73,8 @@ h2 {
     text-decoration: none;
 }
 
-.form-control {
+.form-select, .form-control   {
+
     border: 2.3px solid #003c53;
     background-color: white;
     font-family: "Source Sans Pro", sans-serif;
@@ -71,7 +87,7 @@ h2 {
 }
 
 #logo {
-    transform: translateY(-11px);
+    transform: translateY(-10px);
     align-items: flex-start;
 }
 
@@ -108,7 +124,8 @@ h2 {
     margin-bottom: 60px;
     img {
         margin-bottom: -70px;
-        height: 475px;
+        // height: 520px;
+        width: 455px;
     }
 }
 
@@ -153,7 +170,8 @@ h2 {
     padding-bottom: 40px;
     h3 {
         margin: 16px;
-    }       
+    }      
+   
     #saibamais {
         font-family: "Source Sans Pro", sans-serif;
         margin-top: -25px;
@@ -261,8 +279,13 @@ input[type="radio"]:checked {
 
 #lastpage {
     background-color: #003c53;
-    height: 200px;
     padding: 20px;
+    #lastpage2 {
+        background-color: #003c53;
+        background-clip: border-box;
+   
+    }
+    
 }
 
 #logofim {
@@ -270,14 +293,14 @@ input[type="radio"]:checked {
     padding: 20px;
     justify-content: center;
     align-items: center;
+    
 }
 
-.logo-footer {
-    justify-content: center;
-    display: inline-block;
-}
+
 .rodapeletras {
     color: white;
+    background-color: #003c53;
+    
 }
 
 #selo {
@@ -303,6 +326,7 @@ input[type="radio"]:checked {
     label {
         display: block;
     }
+   
 }
 
 .radio {
@@ -330,8 +354,10 @@ a {
             padding: 2px;
         }
     }
-    #navegador {
+    #navbar_top {
         display: none;
+
+        
     }
     #sec1 {
         padding: 10px;
@@ -371,6 +397,11 @@ a {
         float: none;
         margin: auto;
         display: block;
+    }
+    #navbar_top {
+        display: none;
+
+        
     }
 }
 

@@ -23,13 +23,40 @@
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="styles.css">
 </head>
-
+<header>
+    
+    
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light ">
+     <div class="container" id="novobar">
+        <a class="navbar-brand" href="#"> <img src="img/logo-siso.png" alt="logo-siso" id="logosiso"></a>
+      
+        <form class="input-group">
+            
+            <div class="row">
+                <div class="col-md-4" id="user">
+                    <input type="text" class="form-control " placeholder="Usuário" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+                <div class="col-md-4 ">
+                    <input type="password" class="form-control" placeholder="Senha" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    <label for="password">
+                        <a href="">
+                            <p class="navword"> Esqueceu a senha? </p>
+                        </a>
+                    </label>
+                </div>
+                <div class="col-md-4"><button type="button" class="btn"> AUTENTICAR </button>
+                </div>
+            </div>
+        </form>
+     </div> <!-- container-fluid.// -->
+    </nav>
+    </header>
 <body>
-
-
+    
     <nav class="navbar navbar-light collapse.navbar-collapse d-sm-none ">
-        <div class="container-fluid">
-
+        <div class="container-fluid" >
             <a class="navbar-brand" href="#"> <img src="img/logo-siso.png" alt="logo-siso" id="logosiso"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
@@ -47,14 +74,12 @@
                             <form action="">
                         </li>
                         <li class="nav-item">
-                            <div class="col-md-4  ">
+                            <div class="col-md-5  ">
                                 <input type="text" class="form-control " placeholder="Usuário" aria-label="Username"
                                     aria-describedby="basic-addon1">
                             </div>
-
                         </li>
-
-                        <div class="col-md-4 ">
+                        <div class="col-md-5 ">
                             <input type="password" class="form-control" placeholder="Senha" aria-label="Username"
                                 aria-describedby="basic-addon1">
                             <label for="password">
@@ -62,20 +87,18 @@
                                     <p class="" id="menuword"> Esqueceu a senha? </p>
                                 </a>
                             </label>
-                            <div class="col-md-4">
+                            <div class="col-md-5">
                                 <button type="button" id="menubutton" class="btn"> AUTENTICAR </button>
                             </div>
                         </div>
-
                     </ul>
                 </div>
             </div>
         </div>
         </div>
     </nav>
-
-    <div class="container" id="navegador">
-        <!-- d-md-none classes do bootstrap pra fazer sumir  -->
+    <!-- <div class="container" id="navegador">
+       
         <div class="navbar navbar-light">
             <form class="input-group">
                 <div class="col-md-3 ">
@@ -97,13 +120,10 @@
                     </div>
                     <div class="col-md-4"><button type="button" class="btn"> AUTENTICAR </button>
                     </div>
-
                 </div>
             </form>
-
         </div>
-    </div>
-
+    </div> -->
     <section id="sec1">
         <div class="d-flex flex-wrap justify-content-center ">
             <img src="img/adv.png.png" alt="adv" id="imgadv">
@@ -117,7 +137,6 @@
         </div>
         </div>
     </section>
-
     <section class="container" id="benefits">
         <div class="row row-cols-1 row-cols-sm-2 ">
             <div class="iconsmid col   ">
@@ -125,7 +144,6 @@
                 <span class="col col-sm-10">
                     Controle detalhado de todos os serviços feitos nas salas, como diligências, fotocópia, etc.
                 </span>
-
             </div>
             <div class="iconsmid col  ">
                 <div class="icon "><img src="img/paper.png" alt=""> </div>
@@ -138,17 +156,14 @@
                 <span class="col col-sm-10">
                     Controle da inadimplência de advogados e clientes.
                 </span>
-
             </div>
             <div class="iconsmid col  ">
                 <div class="icon "><img src="img/calculadora.png" alt=""></div>
                 <span class="col col-sm-10">
                     Organização das contas-correntes da OAB.
                 </span>
-
             </div>
             <div class="iconsmid col  ">
-
                 <div class="icon"><img src="img/correct.png" alt=""></div>
                 <span class="col col-sm-10">
                     Transparência na prestação de contas, entre as salas e subseção. Acompanhamento em tempo real.
@@ -162,24 +177,19 @@
                 <div class="col-md-8">
                     <!-- maior que 992px as colunas vai ter tamanho 8, lg é grande-->
                     <h3>Saiba mais sobre os recursos do sistema</h3>
-
                     <div class="row row-cols-sm-1 row-cols-md-2" id="saibamais">
                         <div class="row-cols-sm-1">
                             <h5>Controle das prestações de contas</h5>
                             A Subseção tem controle do fluxo de caixa e movimentações nas contas bancárias.
-
                         </div>
-
                         <div class="row-cols-sm-1">
                             <h5>Auditoria fácil e ágil</h5>
                             As seccionais têm acesso em todas as subseções em tempo real.
                         </div>
-
                         <div class="row-cols-sm-1">
                             <h5>Histórico de todas movimentações</h5>
                             Relatório de todas as movimentações das salas, contador de cópias das máquinas e histórico
                             de tudo que foi lançado no sistema.
-
                         </div>
                         <div class="row-cols-sm-1">
                             <h5>Histórico e controle de advogados com pendências</h5>
@@ -189,12 +199,9 @@
                         <div class="row-cols-sm-1">
                             <h5>Economia nas cópias de prestações/envio e reenvio dos Correios</h5>
                             Os arquivos serão digitais, além de economizar dinheiro, estará ajudando o meio ambiente.
-
                         </div>
-
                         <div class="row-cols-sm-1">
                             <h5>Suporte ao sistema</h5>
-
                             Suporte online e por contato telefônico para esclarecimento de dúvidas e correções de erros.
                             Além disso, o sistema disponibiliza vídeo aulas sobre cada função, ensinando passo-a-passo o
                             uso do sistema.
@@ -203,15 +210,15 @@
                             <h5>Flexibilidade do sistema</h5>
                             Sistema editável para adaptar-se conforme o funcionamento da subseção e das salas. Todo
                             lançamento pode ser editado ou excluído, tornando o sistema muito flexível a erros manuais.
-
                         </div>
-
                         <div class="box row row-cols-1 row-cols-sm-2 tel" id="selo">
-                            <div class="col"><img src="img/phone.png" alt="">  <p>Suporte feito pela K13</p> </div>
-                            <div class="col"><img src="img/Database.png" alt="">  <p>Servidor Incluso</p> </div>
+                            <div class="col"><img src="img/phone.png" alt="">
+                                <p>Suporte feito pela K13</p>
+                            </div>
+                            <div class="col"><img src="img/Database.png" alt="">
+                                <p>Servidor Incluso</p>
+                            </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -252,7 +259,7 @@
                         </label>
                     </div>
                     <div class="form-group col-sm-6">
-                        <label>Subseções</label>
+                        <label>Nº de Subseções</label>
                         <select class="form-control">
                             <option></option>
                             <option>1</option>
@@ -264,7 +271,7 @@
                     </div>
                     <div class="form-group col-12">
                         <label> Selecione Seu Estado</label>
-                        <select class="form-control" required>
+                        <select class="form-select" required>
                             <option value=""></option>
                             <option value="AC">Acre</option>
                             <option value="AL">Alagoas</option>
@@ -307,26 +314,21 @@
             </form>
         </div>
     </section>
-
     <section>
-        <div class="container-fluid" id="lastpage">
-            <div id="lastpage2">
-
-
-                <div class="logo-footer h-100 d-flex justify-content-center">
-                    <div class="flex"><img src="img/logo-siso.png" alt="" id="logofim" /></div>
-                    <div class="rodapeletras mx-3">
+        <div class="" id="lastpage">
+            <div class="container">
+                <div class="row align-items-center" id="lastpage2">
+                    <div class="col-sm-4 col-md-4 col-lg-2"><img src="img/logo-siso.png" alt="" id="logofim" />
+                    </div>
+                    <div class="col col-sm-8 col-md-8 col-lg-9 rodapeletras">
                         <p>(42) 3622-0000 </p>
-                        <a href="">
-                            <p> https://k13.com.br/ </p>
+                        <a href="https://k13.com.br/" target="_blank">
+                             https://k13.com.br/ <br>
                         </a>
                         <strong>K13</strong> - Todos os direitos reservados <br>
-                        Reproduzido por <a href="https://andre26z.github.io/landingpage/" target="_blank">@André
-                            Santos</a>
+                        Reproduzido por <a href="https://andre26z.github.io/landingpage/" target="_blank">@André Santos</a> <br>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>
