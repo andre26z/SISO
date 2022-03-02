@@ -13,3 +13,16 @@ document.addEventListener("DOMContentLoaded" , function() {
 
 
 });
+
+// window.onscroll = function() {scrollFunction()};
+
+// function scrollFunction() {
+//   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+//     document.getElementById("novobar").style.padding = "15px 10px";
+//     document.getElementById("logosiso").style.fontSize = "25px";
+//   } else {
+//     document.getElementById("novobar").style.padding = "10px 10px";
+//     document.getElementById("logosiso").style.fontSize = "10px";
+//     document.getElementById("logosiso").style.width = "180px";
+//   }
+// }

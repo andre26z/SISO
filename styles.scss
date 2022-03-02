@@ -22,10 +22,7 @@ h2 {
     background-color: white;
     border: 1px solid rgba(204, 195, 195, 0.541);
 }
-#navbar_top {
-    transition: 0.4s;
-   
-}
+
 #novobar {
     transform: translate(90px, -11px);
     }
@@ -34,8 +31,6 @@ h2 {
 
     }
 
-
-
 .container {
     background-color: white;
     justify-content: center;
@@ -43,6 +38,11 @@ h2 {
 .navbar {
     background-color: white;
     padding-top: 31px;
+}
+
+#logo {
+    transform: translateY(-10px);
+    align-items: flex-start;
 }
     #menubutton {
         border-color: #0b85b4;
@@ -86,10 +86,7 @@ h2 {
     }
 }
 
-#logo {
-    transform: translateY(-10px);
-    align-items: flex-start;
-}
+
 
 .btn {
     background-color: #003c53;
@@ -220,13 +217,19 @@ h3 {
 }
 
 #pg3 {
+    display: flex;
     justify-content: center;
     padding: 70px 0;
     font-family: "Source Sans Pro", sans-serif;
+    .container {
+        justify-content: center;
+    }
+   
     h5{
         color: #003c53;
         font-family: "Noto Sans", sans-serif;
         font-weight: bold;
+        text-align: start;
     }
     
     
@@ -257,13 +260,7 @@ input[type="radio"]:checked {
     box-shadow: 1px 1px 1px black;
 }
 
-#pg4 {
-    justify-content: start;
-    max-width: 570px;
-    text-align: start;
-    align-items: start;
-    padding: 20px;
-}
+
 
 #benefits2 {
     padding-bottom: 38px;
@@ -344,7 +341,8 @@ a {
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 599px) {
+
+@media only screen and (max-width: 703px) {
     #sec1 {
         #imgadv {
             width: 362px;
@@ -375,6 +373,8 @@ a {
         max-width: 120px;
         max-height: 120px;
     }
+   
+
 }
 @media only screen and (max-width: 767px) {
     #imgadv {
@@ -403,13 +403,42 @@ a {
 
         
     }
+    #logosiso{
+    padding-top: 10px;
+    }
+    
 }
+@media only screen and (max-width: 769px) {
+    #pg3form {
+        width: 100%;
+    }
+    
+    .navbar {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #navbar_top {
+        
+        #logosiso {
+            transform: translate(-92px, 44px);
+            width: 133px;
+        }
+    }
+    #pg3form {
+        width: 100%;
+    }
+       
+}
+
 
 .container-fluid {
     border: none;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
     #benefits {
         padding: 38px;
         max-width: 970px;
@@ -423,3 +452,8 @@ a {
 .offcanvas-header {
     background-color: #003c53;
 }
+
+    #logosiso {
+        transform: translate(10px, -7px);
+        width: 150px;
+    }
