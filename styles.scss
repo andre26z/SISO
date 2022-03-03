@@ -119,6 +119,13 @@ h2 {
     background-position: center center;
     background-size: cover;
     margin-bottom: 60px;
+        .linksite {
+            text-decoration: underline;
+            color: white;
+            &:hover {
+            text-decoration: none;
+            }
+    }
     img {
         margin-bottom: -70px;
         // height: 520px;
