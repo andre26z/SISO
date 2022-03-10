@@ -17,7 +17,9 @@ document.addEventListener("DOMContentLoaded" , function() {
 });
   
   
-
+    
+        
+    
    
    let nsubs = document.getElementById("nsubs");
    let secradio = document.getElementById('secradio');
@@ -25,29 +27,57 @@ document.addEventListener("DOMContentLoaded" , function() {
    let estates = document.getElementById('estates');
    let estados = document.getElementById('estados');
    let cidades = document.getElementById('cidades');
+   
+
     
    document.body.addEventListener('change', function(e){
        let target = e.target;
        switch (target.id) {
 
-        case 'secradio':
-            nsubs.classList.add ("d-none");
-            estates.classList.remove('d-flex');
-            estados.classList.add ('d-none');
-            cidades.classList.remove('d-flex');
-        break
            
            case 'subradio':
-            nsubs.classList.add("d-flex");
-            estates.classList.remove('d-none');
-            estados.classList.add ('d-flex');
-            cidades.classList.remove('d-none');
-        
-        break
-        }
-   })
+               // nsubs.style.display = "none";
+               // estados.style.display = "none";
+               // estates.style.display = "inline-block";
+               // cidades.style.display = "inline-block";
+               nsubs.classList.remove('d-block')
+               nsubs.classList.add('d-none');
+               
+               estados.classList.remove('d-block')
+               estados.classList.add('d-none');
 
-    // const apiUrl = "https://gist.githubusercontent.com/letanure/3012978/raw/78474bd9db11e87de65a9d3c9fc4452458dc8a68/estados-cidades.json";
+               estates.classList.remove('d-none');
+               estates.classList.add('d-block')          
+               
+               cidades.classList.remove('d-none');
+               cidades.classList.add('d-block')
+               
+               break
+               
+               case 'secradio':
+                   // nsubs.style.display = "block";  
+                   // estados.style.display = "block";
+                   // estates.style.display = "none";
+                   // cidades.style.display = "none";
+       
+                   nsubs.classList.remove('d-none');
+                   nsubs.classList.add('d-block');
+       
+                   estados.classList.remove('d-none');
+                   estados.classList.add('d-block');
+       
+                   estates.classList.remove('d-block');
+                   estates.classList.add('d-none');          
+       
+                   cidades.classList.remove('d-bloc');
+                   cidades.classList.add('d-none');
+               break
+               
+               
+            }
+        })
+        
+        // const apiUrl = "https://gist.githubusercontent.com/letanure/3012978/raw/78474bd9db11e87de65a9d3c9fc4452458dc8a68/estados-cidades.json";
     // let dados = await fetch(apiUrl).then(res => {
     //     return res.json()
     // })
