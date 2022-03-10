@@ -1,3 +1,5 @@
+'use strict'
+
 document.addEventListener("DOMContentLoaded" , function() {
     window.addEventListener('scroll', function() {
         if (window.scrollY > 50 ) {
@@ -13,21 +15,103 @@ document.addEventListener("DOMContentLoaded" , function() {
 
 
 });
-    const sec = document.getElementById('sec');
-    const estado= document.getElementById("estado");
-    const secradio = documet.getElementById("secradio");
-    const subradio = document.getElementById("subradio");
+  
+  
 
-function seccional() {
+   
+   let nsubs = document.getElementById("nsubs");
+   let secradio = document.getElementById('secradio');
+   let subradio = document.getElementById('subradio');
+   let estates = document.getElementById('estates');
+   let estados = document.getElementById('estados');
+   let cidades = document.getElementById('cidades');
     
-    sec.innerHTML = "Nº de Subseções";
-    estado.innerHTML = "Selecione seu Estado";
-    
+   document.body.addEventListener('change', function(e){
+       let target = e.target;
+       switch (target.id) {
 
-};
+        case 'secradio':
+            nsubs.classList.add ("d-none");
+            estates.classList.remove('d-flex');
+            estados.classList.add ('d-none');
+            cidades.classList.remove('d-flex');
+        break
+           
+           case 'subradio':
+            nsubs.classList.add("d-flex");
+            estates.classList.remove('d-none');
+            estados.classList.add ('d-flex');
+            cidades.classList.remove('d-none');
+        
+        break
+        }
+   })
 
-function subseção() {
+    // const apiUrl = "https://gist.githubusercontent.com/letanure/3012978/raw/78474bd9db11e87de65a9d3c9fc4452458dc8a68/estados-cidades.json";
+    // let dados = await fetch(apiUrl).then(res => {
+    //     return res.json()
+    // })
+    // .catch(err => console.error('n deu', err));
+    // console.log(dados);
+    // dados.estados.forEach(estado => {
+    //     console.log(estado.sigla);
+    //     console.log(estado.cidades);
+    //      estado.cidades.forEach(cidade => {
+    //         console.log(cidade)
+    //     })
+    // });
+
+
+
+//        getestado();  
+//     async function getestado(){
+//     let dados = await fetch('../estadoscidades/estados-cidades2.json').then(res => {
+//             return res.json()
+
+//         })
+//         .catch(err => console.error('n deu', err));
+
+//         // console.log(dados);
+//         const rondonia = dados.states[11];
+//         console.log(rondonia, 'deu boa')
+//         };
+ 
+//     async function getcidade(){
+//     let cidades = await fetch('https://servicodados.ibge.gov.br/api/v1/localidades/estados/33/municipios')
+//     .then(res => {
+//         return res.json()
+//     })
+//     .catch(err => console.error('n deu', err));
+//     console.log(cidades.states[11]);
     
-    sec.innerHTML = "Selecione um Estado";
-    estado.innerHTML = "Cidade";
-};
+// }
+
+
+// function buscaCidades(e){
+//     document.querySelector("#cidade").innerHTML = '';
+//     var cidade_select = document.querySelector("#cidade");
+ 
+//     var num_estados = json_cidades.estados.length;
+//     var j_index = -1;
+ 
+//     // aqui eu pego o index do Estado dentro do JSON
+//     for(var x=0;x<num_estados;x++){
+//        if(json_cidades.estados[x].sigla == e){
+//           j_index = x;
+//        }
+//     }
+ 
+//     if(j_index != -1){
+   
+//        // aqui eu percorro todas as cidades e crio os OPTIONS
+//        json_cidades.estados[j_index].cidades.forEach(function(cidade){
+//           var cid_opts = document.createElement('option');
+//           cid_opts.setAttribute('value',cidade)
+//           cid_opts.innerHTML = cidade;
+//           cidade_select.appendChild(cid_opts);
+//        });
+//     }else{
+//        document.querySelector("#cidade").innerHTML = '';
+//     }
+//  }
+
