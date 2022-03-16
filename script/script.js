@@ -92,15 +92,30 @@ async function getestado() {
         option.value = estado.sigla;
         selectestates.add(option, selectestates[0]);
 
-       
              
-              
     })
 
-        
+   // QUANDO MUDAR O SELECT ESTADO, PUXAR CIDADE COM A SIGLA DO ESTADO.
+
+   
+    }
+
+    // let selectcidades = document.getElementById('selectcidades');
+    // selectcidades.onchange = function(){ trocarcidade()};
+    // function trocarcidade(){
+    //     let option = document.createElement("option");
+    //     option.text = 
+    
 
 
-};
+
+    
+
+    
+          
+
+
+
 
    
     
@@ -108,14 +123,12 @@ async function getestado() {
 
 
 
-
-
 // async function getcidade() {
-//     let cidades = await fetch('https:servicodados.ibge.gov.br/api/v1/localidades/estados/33/municipios')
-//         .then(res => {
-//             return res.json()
-//         })
-//         .catch(err => console.error('n deu', err));
+     let cidades = await fetch('https:servicodados.ibge.gov.br/api/v1/localidades/estados/33/municipios')
+         .then(res => {
+             return res.json()
+         })
+         .catch(err => console.error('n deu', err));
 //     console.log(cidades.states[11]);
 
 // }
